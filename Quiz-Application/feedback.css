@@ -1,0 +1,45 @@
+body{
+    background-image: url(Assets/feedback.avif);
+    background-size:cover ;
+}
+.feed{
+
+    width:500px;
+    height:500px;
+    margin:30px auto;
+}
+h1{
+
+    font-size: 60px;
+    color:blue;
+    text-align:center;
+    border-bottom:2px solid white;
+}
+table{
+    margin-bottom: 20%;
+    font-size:20px;
+}
+td{
+padding:10px 20px 0px 0px;
+
+}
+.txt{
+    width:400px;
+    height:25px;
+    border-radius:8px;
+    background: transparent;
+}
+.txtarea{
+    border-width: 3px;
+    border-radius:8px;
+    background: transparent; 
+    border-color: black;
+}
+.but{
+ margin-left: 25%;  
+background-color:rgb(20, 20, 185);
+color:white;
+font-size: 20px;
+border-radius: 5px;
+}
+

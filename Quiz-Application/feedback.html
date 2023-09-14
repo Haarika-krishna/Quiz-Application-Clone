@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <title>feedback form</title>
+        <link rel="stylesheet" href="feedback.css">
+    </head>
+    <body>
+    
+        <div class="feed">
+            <table>
+                <h1>Feedback Form</h1>
+                <form action="" method="post"></form>    
+                <tr>
+                    <td>
+                        <label>Would you like to recommend this website to your friends</label><br>
+                        <input type="radio" name="rate" value="Yes">Yes
+                        <input type="radio" name="rate" value="No">No
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <label>Full Name*</label><br>
+                       <input type="text" name="Full Name" class="txt">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> mail*</label><br>
+                        <input type="email" name="email" class="txt">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Profession*</label>
+                        <select name="Profession" class="txt">
+                            <option value="student">student</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="working">working</option>
+                            <option value="searching job">searching job</option>
+                            <option value="Others">others</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Rating*</label>
+                        <select name="Rating" class="txt">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Feedback</label><br>
+                        
+                        <textarea name="Experience"cols="70" rows="10" class="txtarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onClick="post()" class="but">Submit</button>
+                    </td>
+                </tr>
+             </table>
+        </div>  
+        <script >
+           const post=()=>{
+            document.write("<h1>Thanks for your feedback...!</h1>");
+            }
+        </script>
+     </body>   
+</html>

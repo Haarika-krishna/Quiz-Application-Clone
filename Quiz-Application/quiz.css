@@ -1,0 +1,381 @@
+body
+{
+    margin:0;
+}
+
+.nav-container
+{
+    width:100%;
+    background-color:#091f36;
+    display:flex;
+    justify-content:space-between;
+}
+.logo
+{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 18px;
+    color:white
+}
+.nav-right
+{
+    margin:28px 32px;
+}
+.nav-right a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    margin:0 14px;
+
+}
+.nav-btn{
+    background-color: #28B463;
+    border-radius: 24px;
+    padding:12px 22px;
+}
+
+.nav-right a:hover
+{
+    border-bottom:5px solid white;
+}
+/* .............................navbarends here */
+.main-container
+{
+    background-image:url("https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg");
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:8px;
+}
+.main-left
+{
+    color:white;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.main-title
+{
+    font-size: 38px;
+}
+.title
+{
+    color:#E62C59  ;
+}
+.main-para
+{
+    font-size: 18px;
+    color:gray;
+    text-align:justify;
+}
+.main-start-btn
+{
+    background-color: #2E86C1 ;
+    color:white;
+    padding:20px 32px;
+    border-radius: 25px;
+    border:none;
+}
+.main-start-btn:hover
+{
+    background-color: #28B463;
+}
+/* maincontainerends......... */
+.cards-container
+{
+    background-color:#dce1e3;
+    text-align:center;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding:4% 0;
+}
+.card
+{
+    width: 250px;
+    border: 1px solid #ccc;
+    margin:0 14px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-img
+{
+    height: 180px;
+    width:220px;
+    margin-left: 8px;
+}
+.card-start-btn
+{
+    background-color: #28B463;
+    color:white;
+    padding:7% 45%;
+    border-radius:14px;
+    border:none;
+}
+.review-container
+{
+    background-color: #091f36;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding:8% 0;
+}
+.review-card
+
+{
+    width: 480px;
+    height:280px;
+    background-color: #dce1e3;
+    margin:0 20px;
+    padding:14px 20px;
+}
+.review-img
+{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+.review-title
+{
+    font-size: 24px;
+}
+.review-par
+{
+    font-size: 14px;
+}
+.footer
+{
+  display:grid;
+  background-color: black;
+  color:white;
+  grid-template-columns: 50% 50%;  
+  margin-left: 28px;
+  padding:4%;
+}
+.footer-icon
+{
+   color:blue;
+    font-size: 48px;
+    margin:0 20px;
+}
+
+/* media queries */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  /* mobilescreenav   */
+  .nav-container
+  {
+      width:100%;
+      background-color:#091f36;
+      display:flex;
+      justify-content:space-between;
+  }
+  .logo
+  {
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      margin-left: 12px;
+      color:white
+  }
+  
+  .nav-right a
+  {
+      text-decoration: none;
+      color:white;
+      font-size: 14px;
+      text-align: center;
+
+  }
+  .nav-btn
+  {
+      
+      padding:12px 14px;
+      border-radius: 24px;
+      margin:20px 0;
+  }
+  .main-container
+    {
+        background-image:url("https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg");
+        height:30vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:8px;
+    }
+    .main-left
+    {
+        color:white;
+        margin:40px 8px;
+    }
+    .main-title
+    {
+        font-size:18px;
+    }
+    .title
+    {
+        color:#E62C59  ;
+    }
+    .main-para
+    {
+        font-size: 8px;
+        color:gray;
+        text-align:justify;
+    }
+    .main-start-btn
+    {
+        background-color: #2E86C1 ;
+        color:white;
+        padding:8px 8px;
+        border-radius: 25px;
+        border:none
+    }
+    .main-start-btn:hover
+    {
+        background-color: #28B463;
+    }
+    .cards-container
+    {
+        background-color:#dce1e3;
+        display:block;
+        padding-left:14%;
+        text-align: center;
+        
+    }
+    .card
+    {
+        width: 250px;
+        border: 1px solid #ccc;
+        margin:0 14px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .card-img
+    {
+        height: 180px;
+        width:220px;
+        margin-left: 8px;
+    }
+    .review-container
+    {
+        background-color: #091f36;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        padding:8% 0;
+    }
+    .review-card
+
+    {
+        width: 480px;
+        height:350px;
+        background-color: #dce1e3;
+        margin:0 20px;
+        padding:14px 20px;
+    }
+    .footer
+    {
+    display:grid;
+    grid-template-columns: 50% 50%;  
+    margin-left: 8px;
+    padding:4%;
+    }
+    .footer-icon
+    {
+        color:black;
+        font-size: 18px;
+        margin:0 20px;
+    }
+        
+ 
+}
+/* tabs */
+@media only screen and (min-width: 481px) and (max-width:768px)
+{
+    
+    .main-container
+    {
+        background-image:url("https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg");
+        height:40vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .main-left
+    {
+        color:white;
+        margin:80px 14px;
+    }
+    .main-title
+    {
+        font-size:32px;
+    }
+    .title
+    {
+        color:#E62C59  ;
+    }
+    .main-para
+    {
+        font-size: 12px;
+        color:gray;
+        text-align:justify;
+    }
+    .main-start-btn
+    {
+        background-color: #2E86C1 ;
+        color:white;
+        padding:18px 28px;
+        border-radius: 25px;
+        border:none
+    }
+    .main-start-btn:hover
+    {
+        background-color: #28B463;
+    }
+    .cards-container
+    {
+        background-color:#dce1e3;
+        display:grid;
+        grid-template-columns:50% 50%;
+        margin:8px 0;
+    }
+    .card
+    {
+        width: 250px;
+        border: 1px solid #ccc;
+        margin:0 14px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+}
+/* laptops */
+
+@media only screen and (min-width: 768px) and (max-width:1024px)
+{
+    .cards-container
+    {
+        background-color:#dce1e3;
+        display:grid;
+        grid-template-columns:30% 30% 30%;
+        margin:18px 14px;
+    }
+
+}
+@media only screen and (min-width: 1025px) and (max-width:1200px)
+{
+    .cards-container
+    {
+        background-color:#dce1e3;
+        display:grid;
+        grid-template-columns:30% 30% 30%;
+        margin:18px 14px;
+    }
+
+} 
+
+
+    
